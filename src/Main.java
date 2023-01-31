@@ -4,7 +4,7 @@ public class Main {
         float added = 100F; // пополнение счета
         int bonus = 0;
         float newBalance = 0;
-        if (added >= 100) {
+        if (added >= 1000) {
             bonus = (int) added / 100;
             newBalance = balance + added + bonus;
             System.out.println("Вам начислено " + bonus + " бонусных рублей.");
